@@ -1,0 +1,15 @@
+{% extends 'CRUD/base.html' %}
+{% block title %}Delete Confirmation{% endblock %}
+
+{% block main_content %}
+<div class="container mt-5">
+    <div class="text-center">
+        <h2>Are you sure you want to delete <strong>{{ del_data.name }}</strong>?</h2>
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Yes, Delete</button>
+            <a href="{% url 'display_data' %}" class="btn btn-secondary">No, Cancel</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
