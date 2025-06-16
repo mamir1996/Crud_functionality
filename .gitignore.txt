@@ -1,5 +1,17 @@
+# Virtual environment
 venv/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.sqlite3
-.DS_Store
+
+# VSCode
+.vscode/
+
+# Django static/media
+staticfiles/
+media/
+
+# Env config
+.env
