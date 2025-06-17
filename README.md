@@ -16,7 +16,7 @@ A simple and clean Django project implementing full CRUD (Create, Read, Update, 
 
 - **Backend:** Python 3, Django
 - **Database:** SQLite3
-- **Frontend:** HTML, CSS (Bootstrap optionally)
+- **Frontend:** HTML, CSS Bootstrap optionally
 
 ## 🏁 Getting Started
 
