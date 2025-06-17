@@ -27,8 +27,21 @@ A simple and clean Django project implementing full CRUD (Create, Read, Update, 
 
 ### 🔧 Installation
 
+🔁 Git Workflow for Collaborators
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/mamir1996/Crud_functionality
+1. git clone https://github.com/mamir1996/Crud_functionality
    cd Crud_functionality
+2. git checkout -b feature/your-feature-name
+3. Make changes locally
+4. git add .
+5. git commit -m "Your message"
+6. git push origin feature/your-feature-name
+7. Create Pull Request on GitHub
+8. Wait for review, then merge
+✅ Commands You’ll Use Often
+git pull origin main     # Get latest changes from GitHub
+git add .                # Stage all changes
+git commit -m "Message"  # Save commit locally
+git push origin main     # Push changes to GitHub
