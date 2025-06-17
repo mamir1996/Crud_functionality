@@ -31,4 +31,4 @@ A simple and clean Django project implementing full CRUD (Create, Read, Update, 
 
    ```bash
    git clone https://github.com/mamir1996/Crud_functionality
-   cd your-repo-name
+   cd Crud_functionality
