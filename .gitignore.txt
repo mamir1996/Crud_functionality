@@ -1,20 +1,11 @@
-# ✅ Virtual environment
+# .gitignore
 venv/
-
-# ✅ Python cache & compiled files
-__pycache__/
-*.py[cod]
-
-# ✅ SQLite DB file (good, but it must be removed from git history if already pushed)
-*.sqlite3
 db.sqlite3
-
-# ✅ VS Code folder
-.vscode/
-
-# ✅ Django collectstatic folder
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
 staticfiles/
 media/
-
-# ✅ Common dotenv environment file
-.env
